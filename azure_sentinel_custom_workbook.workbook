@@ -1,24 +1,3 @@
-# azure_sentinel_custom_workbook
-#
-# This custom workbook can be used in Microsoft Azure Sentinel and provides you with pre-configured data sets with data points from Jamf Protect.
-# In order to use this dashboard please use the steps below as guidance:
-#
-# We do require that you already have configured the Jamf Protect and Sentinel integration. https://docs.jamf.com/jamf-protect/documentation/Data_Forwarding_to_a_Third_Party_Storage_Solution.html?hl=sentinel#task-4227
-#
-# 1. Navigate to https://portal.azure.com
-# 2. Navigate to Azure Sentinel
-# 3. Navigate to the Sentinel Workspace that is being used for Jamf Protect
-# 4. Navigate to Workbooks and continuing in My Workbooks
-# 5. Click on + Add Workbook
-# 6. Click Edit and in the button bar on the top navigate to the advanced editor `</>`
-# 7. Copy and Paste all data below the # JSON Representation here
-# 8. Once copied into Advanced Editor, hit CMD+F or CNTR+F and replace YOUR_PROTECT_SENTINEL_DATASOURCE with your Sentinel Data Source name
-# 9. Hit Apply and Done Editing
-# 10. You can now view or link to this dashboard by clicking View My Dashboard
-
-
-# JSON representation
-
 {
 	"version": "Notebook/1.0",
 	"items": [
