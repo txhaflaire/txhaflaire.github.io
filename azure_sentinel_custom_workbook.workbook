@@ -208,7 +208,7 @@
 				"version": "KqlItem/1.0",
 				"query": "acmesoft_protect_CL\n| where TimeGenerated > ago(24h)\n| summarize Event = count() by input_host_hostname_s\n| project-rename HostName = input_host_hostname_s\n| sort by Event desc",
 				"size": 3,
-				"title": "Most Active Endpoints (Total, last 24 hours)",
+				"title": "Most Active macOS Endpoints (Total, last 24 hours)",
 				"queryType": 0,
 				"resourceType": "microsoft.operationalinsights/workspaces",
 				"visualization": "table",
