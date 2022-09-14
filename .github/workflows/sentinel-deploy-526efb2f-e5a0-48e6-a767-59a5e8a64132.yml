@@ -7,7 +7,7 @@ name: Deploy Content to JamfProtect [526efb2f-e5a0-48e6-a767-59a5e8a64132]
 #    - '!.github/workflows/**'
 #    - '.github/workflows/sentinel-deploy-526efb2f-e5a0-48e6-a767-59a5e8a64132.yml'
 #   2. Append the path to the directory environment variable below
-#       directory: '${{ github.workspace }}/SentinelContent'
+#       directory: '.github/SentinelContent/'
 
 on: 
   push:
@@ -17,7 +17,7 @@ on:
     - '!.github/workflows/**'  # this filter prevents other workflow changes from triggering this workflow
     - '.github/workflows/sentinel-deploy-526efb2f-e5a0-48e6-a767-59a5e8a64132.yml'
     
-    directory: '${{ github.workspace }}/SentinelContent/'
+    directory: '.github/SentinelContent/'
 
 jobs:
   deploy-content:
